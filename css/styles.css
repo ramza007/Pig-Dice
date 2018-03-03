@@ -1,7 +1,9 @@
 body{
-    background-image: url(../images/throne.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: aqua;
+}
+.pad{
+    padding: 4%;
+    margin: 3%;
+    background: rgba(0, 179, 180,0.4);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
