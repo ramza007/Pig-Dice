@@ -11,8 +11,8 @@
 
 <body>
 
-    <nav class="navbar navbar-default" role="navigation">
 <!-- Grouping for better mobile display -->
+    <nav class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -23,6 +23,27 @@
             <a class="navbar-brand" href="#">Pig Dice</a>
         </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pad">
+                        <form action="" id="player1Form">
+                            <div class="form group">
+                                <label for="player1Name">Enter Name</label>
+                                <input type="text" class="form-control" id="player1Name" required>
+                            </div>
+                            <div>
+                                <h2 id="player1NameDisplay"></h2>
+                                <h4>Player 1 roll result</h4>
+                                <span id="roll-result"></span>
+                            </div>
+                            <button id="roll2" class="btm">Roll!</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
 </body>
 
 </html>
