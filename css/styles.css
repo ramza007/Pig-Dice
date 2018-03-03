@@ -5,11 +5,15 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+ /*Area for user input*/
+
 .pad {
     padding: 4%;
     margin: 3%;
     background: rgba(0, 179, 180,0.6);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 20px; 
 }
 
 .pad1 {
@@ -17,12 +21,19 @@ body {
     margin: 3%;
     background: rgba(255, 195, 0 , 0.4);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 20px;
 }
+
+/*End of area for user interface*/
+
+/*Top Part of the page*/
 
 .jumbotron {
     background-color: gray;
-    opacity: 0.5;
+    opacity: 0.75;
     text-align: center;
+    border-radius: 20px;
+    margin: 5px;
 }
 
 
@@ -35,4 +46,23 @@ body {
   font-weight: bold;
   color: #000000;
   opacity: 1.0;
+}
+
+/*end of top part of the page*/
+
+/*The instruction area on how to play the game*/
+
+.container-1 {
+    margin: 80px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.container-1 p, ul {
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    opacity: 1.0;
 }

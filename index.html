@@ -19,7 +19,7 @@
                 <div class="pad">
                     <form action="" id="player1Form">
                         <div class="form group">
-                            <label for="player1Name">Enter Player 1 Name</label>
+                            <label for="player1Name"><strong>Enter Player 1 Name</strong></label>
                             <input type="text" class="form-control" id="player1Name" required>
                         </div>
                         <div>
@@ -39,7 +39,7 @@
                 <div class="pad1">
                     <form action="" id="player2Form">
                         <div class="form-group">
-                            <label for="player2Name">Enter Player 2 Name</label>
+                            <label for="player2Name"><strong>Enter Player 2 Name</strong></label>
                             <input type="text" class="form-control" id="player2Name" required>
                         </div>
                         <div>
@@ -56,6 +56,16 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container-1">
+        <p>
+             Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
+            <ul>
+                <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+                <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+                <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn. * The first player to score 100 or more points wins.</li>
+            </ul>
+        </p>
     </div>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
