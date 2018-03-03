@@ -1,5 +1,9 @@
 body{
-    background-color: aqua;
+    background-image: url(../images/throne.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .pad{
     padding: 4%;
