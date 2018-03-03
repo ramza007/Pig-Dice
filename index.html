@@ -10,61 +10,48 @@
 </head>
 
 <body>
-
-<!-- Grouping for better mobile display -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Pig Dice</a>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="pad">
-                        <form action="" id="player1Form">
-                            <div class="form group">
-                                <label for="player1Name">Enter Name</label>
-                                <input type="text" class="form-control" id="player1Name" required>
-                            </div>
-                            <div>
-                                <h2 id="player1NameDisplay"></h2>
-                                <h4>Player 1 roll result</h4>
-                                <span id="roll-result"></span>
-                            </div>
-                            <button id="roll2" class="btm">Roll!</button>
-                        </form>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pad">
+                    <form action="" id="player1Form">
+                        <div class="form group">
+                            <label for="player1Name">Enter Name</label>
+                            <input type="text" class="form-control" id="player1Name" required>
+                        </div>
+                        <div>
+                            <h2 id="player1NameDisplay"></h2>
+                            <h4>Player 1 roll result</h4>
+                            <span id="roll-result"></span>
+                        </div>
+                        <button id="roll2" class="btm">Roll!</button>
+                    </form>
                 </div>
-                <div class="col-md-6">
-                    <div class="pad1">
-                        <form action="" id="player2Form">
-                            <div class="form-group">
-                                <label for="player2Name">Enter Player 2 Name</label>
-                                <input type="text" class="form-control" id="player2Name" required>
-                            </div>
-                            <div>
-                                <h2 id="palyer2NameDisplay"></h2>
-                                <h4>Player 2 roll result</h4>
-                                <span id="roll-result2"></span>
-                            </div>
-                            <div>
-                                <h4>Player 2 scores</h4>
-                                <span id="score2"></span>
-                            </div>
-                            <button id="roll2" class="btn">Roll!</button>
-                        </form>
-                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pad1">
+                    <form action="" id="player2Form">
+                        <div class="form-group">
+                            <label for="player2Name">Enter Player 2 Name</label>
+                            <input type="text" class="form-control" id="player2Name" required>
+                        </div>
+                        <div>
+                            <h2 id="palyer2NameDisplay"></h2>
+                            <h4>Player 2 roll result</h4>
+                            <span id="roll-result2"></span>
+                        </div>
+                        <div>
+                            <h4>Player 2 scores</h4>
+                            <span id="score2"></span>
+                        </div>
+                        <button id="roll2" class="btn">Roll!</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <script src="js/jquery-3.3.1.js"></script>
-        <script src="js/scripts.js"></script>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
