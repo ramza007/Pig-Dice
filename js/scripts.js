@@ -21,3 +21,39 @@ $(document).ready(function() {
         $('#roll2').click(player2.checkWin2());
     });
 });
+
+//End of user interface
+
+//Business logic
+
+function Player(name, points) {
+    this.name = name;
+    this.points = points;
+}
+
+//The following alert promts for names for both players
+
+var player1 = new Player();
+var player2 = new Player();
+
+var score1 = 0;
+var score2 = 0;
+
+Player.prototype.checkWin2 = function () {
+    var diceRoll2 = Math.floor(Math.random() * 6 + 1);
+
+    if (diceRoll2 === 1) {
+        alert('its Players 1 turn');
+        score2 = 0;
+    } else {
+        if (diceRoll2 >= 100) {
+            alert('player 2 wins the game');
+        } else {
+            console.log('game continues');
+            player2.points = diceRoll2;
+            score2 += diceRoll2;
+            console.log(score2);
+            console.log('You rolled a die of: ' + diceRoll2 + ' for a score of: ' + score2);
+        }
+    }
+}
