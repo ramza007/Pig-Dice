@@ -29,6 +29,6 @@ Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pla
 Feel free to explore my other repositories!
 
 ---
-Copyright and Licence are under [**MIT**]()
+Copyright and Licence are under [**MIT**](https://github.com/ramza007/Pig-Dice/blob/master/LICENSE)
  
  ©RAMZA | 2018 
