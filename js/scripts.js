@@ -19,4 +19,5 @@ $(document).ready(function() {
         $('#player2NameDisplay').text(name2Display);
         $('#score2').text(score2);
         $('#roll2').click(player2.checkWin2());
+    });
 });
